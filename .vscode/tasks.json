@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "shell",
+            "label": "shell: gcc.exe build active file",
+            "command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\Core.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\base64.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\firefox.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\mem.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\misc.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\parson.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\sqlite3.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\aes.c",
+                "c:\\Users\\airph\\Nextcloud\\Trash\\chrome.c",
+                "-o",
+                "${fileDirname}\\$Core.exe",
+                "-lws2_32",
+                "-lstdc++",
+                "-lShlwapi",
+                "-lcrypt32"
+            ],
+            "options": {
+                "cwd": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "cctype": "c",
+        "cmath": "c",
+        "cstdarg": "c",
+        "cstdint": "c",
+        "cstdio": "c",
+        "cstdlib": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "cinttypes": "c",
+        "typeinfo": "c"
+    }
+}
