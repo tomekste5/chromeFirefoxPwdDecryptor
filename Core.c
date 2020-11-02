@@ -62,7 +62,7 @@ int main(){
     struct AES_ctx blob;
 
 
-    char ip[] = {'8','1','.','1','6','9','.','1','3','6','.','2','1','1'};
+    char ip[] = {"IP"};
     memset(&saServer, 0, sizeof(saServer));
     saServer.sin_family = AF_INET;
     saServer.sin_addr.s_addr = inet_addr(ip); //here goes your addr! 
